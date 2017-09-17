@@ -9,6 +9,10 @@ html {
     background-color: $color_4;
 }
 
+.nav_favicon {
+    margin-right: 0.5rem;
+}
+
 .hero {
     max-width: 100%;
 }
@@ -41,6 +45,10 @@ a:hover {
 color: $color_1;
 }
 
+.director {
+    margin-top: 3rem;
+}
+
 .leading_cast {
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -50,6 +58,6 @@ color: $color_1;
     margin-bottom: 1rem;
 }
 
-.leading_cast {
+.cast {
     margin-bottom: 2rem;
 }
