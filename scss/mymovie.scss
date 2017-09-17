@@ -1,5 +1,42 @@
 $basic_margin: 1em;
+$color_1: #ad974f;
+$color_2: #8e793e;
+$color_3: #231f20;
+$color_4: #eaeaea;
+
+
+html {
+    background-color: $color_4;
+}
+
+.hero {
+    max-width: 100%;
+}
 
 h1 {
     margin: 0.5 * $basic_margin;
+}
+
+.movie_title {
+    color: $color_3;
+}
+
+.btn {
+    color: $color_2;
+    background-color: $color_3
+}
+
+a.nav-link, a.navbar-brand {
+    color: $color_2;
+}
+
+.info {
+    margin: 1rem;
+}
+
+a { 
+    color: $color_2;
+}
+a:hover {
+color: $color_1;
 }

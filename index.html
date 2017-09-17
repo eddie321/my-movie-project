@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Movie Project</title>
+    <title>Film Center</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
         crossorigin="anonymous">
@@ -15,7 +15,6 @@
 
 <body>
     <div class="container">
-        <h1>My Movie Project</h1>
         <div class="navbar navbar-expand{-sm|-md|-lg|-xl}">
 
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -27,8 +26,8 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Movies</a>
@@ -47,70 +46,194 @@
                 </div>
             </nav>
         </div>
-        <img src="img/sny_hero.jpg" alt="Synecdoche, New York cover image">
-
-        <ul>
-            <li>Synecdoche, New York</li>
-            <li>Year: 2008</li>
-            <li>Type: Feature</li>
-            <li>Status: Finished</li>
-            <li>Length: 124 min</li>
-            <li>Metascore: 67</li>
-            <li>Genre: Comedy, Drama</li>
-            <li>IMDB: <a href="http://www.imdb.com/title/tt0383028/">Synecdoche, New York</a></li>
-        </ul>
     </div>
-
     <div class="container">
-        <h4>Plot</h4>
-        <p>A theatre director struggles with his work, and the women in his life, as he creates a life-size replica of New York
-            City inside a warehouse as part of his new play.</p>
+        <h1 class="movie_title">Synecdoche, New York</h1>
+        <img class="hero" src="img/sny_hero.jpg" alt="Synecdoche, New York cover image">
     </div>
+    <div class="container coffee">
 
-    <div class="container">
-        <h4>Releases:</h4>
-        <ul>
-            <li>USA - Oct 19 2008</li>
-            <li>USA - Oct 24 2008</li>
-            <li>USA - Nov 21 2008</li>
-            <li>USA - Mar 10 2009</li>
-            <li>Czechia - Mar 27 2009</li>
-            <li>Czechia - Apr 23 2009</li>
-            <li>UK - Oct 28 2008</li>
-            <li>UK - Feb 20 2009</li>
-            <li>UK - May 15 2009</li>
-        </ul>
-    </div>
-    <div class="container"></div>
 
-    <div class="container">
-
-        <div class="card" style="width: 25rem;">
-            <img class="card-img-top" src="img/kaufman_img.jpg" alt="Card image cap">
-            <div class="card-body">
-                <h4 class="card-title">Directed By:</h4>
-                <p class="card-text">Charlie Kaufman</p>
-                <a href="http://www.imdb.com/name/nm0442109/?ref_=nv_sr_2" class="btn btn-primary">IMDB</a>
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <div class="card info" style="width: 20rem;">
+                    <h2 class="d-flex justify-content-center">The Film...</h2>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Year: 2008</li>
+                        <li class="list-group-item">Type: Feature</li>
+                        <li class="list-group-item">Status: Finished</li>
+                        <li class="list-group-item">Length: 124 min</li>
+                        <li class="list-group-item">Metascore: 67</li>
+                        <li class="list-group-item">Genre: Comedy, Drama</li>
+                        <li class="list-group-item">IMDB: <a href="http://www.imdb.com/title/tt0383028/">Synecdoche, New York</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card info" style="width: 20rem;">
+                    <h2 class="d-flex justify-content-center">Releases:</h2>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">USA - Oct 19 2008</li>
+                        <li class="list-group-item">USA - Oct 24 2008</li>
+                        <li class="list-group-item">USA - Nov 21 2008</li>
+                        <li class="list-group-item">USA - Mar 10 2009</li>
+                        <li class="list-group-item">Czechia - Mar 27 2009</li>
+                        <li class="list-group-item">Czechia - Apr 23 2009</li>
+                        <li class="list-group-item">UK - Oct 28 2008</li>
+                        <li class="list-group-item">UK - Feb 20 2009</li>
+                        <li class="list-group-item">UK - May 15 2009</li>
+                    </ul>
+                </div>
             </div>
         </div>
 
-        <h4>Cast:</h4>
-        <ul>
-            <li>Philip Seymour Hoffman</li>
-            <li>Catherine Keener</li>
-            <li>Sadie Goldstein</li>
-            <li>Tom Noonan</li>
+        <div class="container">
+            <h4>Plot</h4>
+            <p>A theatre director struggles with his work, and the women in his life, as he creates a life-size replica of New
+                York City inside a warehouse as part of his new play.</p>
+        </div>
+
+
+        <div class="container">
+
+            <div class="card" style="width: 25rem;">
+                <img class="card-img-top" src="img/kaufman_img.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">Directed By:</h4>
+                    <p class="card-text">Charlie Kaufman</p>
+                    <a href="http://www.imdb.com/name/nm0442109/?ref_=nv_sr_2" class="btn btn-primary">IMDB</a>
+                </div>
+            </div>
+
+            <h4>Cast:</h4>
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Philip Seymour Hoffman</h5>
+                            <p class="card-text">As: Caden Cotard</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Catherine Keener</h5>
+                            <p class="card-text">As: Adele Lack</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Sadie Goldstein</h5>
+                            <p class="card-text">As: Olive (4 years old)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Tom Noonan</h5>
+                            <p class="card-text">As: Sammy Barnathan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Daniel London</h5>
+                            <p class="card-text">As: Tom</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Robert Seay</h5>
+                            <p class="card-text">As: David</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Michelle Williams</h5>
+                            <p class="card-text">As: Claire Keen</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Samantha Morton</h5>
+                            <p class="card-text">As: Hazel</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Hope Davis</h5>
+                            <p class="card-text">As: Madeline Gravis</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Jennifer Jason Leigh</h5>
+                            <p class="card-text">As: Maria</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Robin Weigert</h5>
+                            <p class="card-text">As: Adult Olive</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Jennifer Jason Leigh</h5>
+                            <p class="card-text">As: Maria</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Emily Watson</h5>
+                                <p class="card-text">As: Tammy</p>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-sm-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Dianne Wiest</h5>
+                                <p class="card-text">As: Ellen Bascomb / Millicent Weems</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+            </div>
+
+
+
             <li>Peter Friedman</li>
-            <li>Charles Techman</li>
-            <li>Josh Pais</li>
             <li>Daniel London</li>
             <li>Robert Seay</li>
-            <li>Michelle Williams</li>
             <li>Stephen Adly Guirgis</li>
-            <li>Samantha Morton</li>
-            <li>Hope Davis</li>
+            <li>Charles Techman</li>
+            <li>Josh Pais</li>
+
             <li>Frank Girardeau</li>
-            <li>Jennifer Jason Leigh</li>
             <li>Amy Wright</li>
             <li>Paul Sparks</li>
             <li>Jerry Adler</li>
@@ -134,17 +257,17 @@
             <li>Portia</li>
             <li>Dan Ziskie</li>
             <li>Chris McGinn</li>
-            <li>Robin Weigert</li>
+
             <li>Gerald Emerick</li>
             <li>Alvin Epstein</li>
             <li>Rosemary Murphy</li>
-            <li>Emily Watson</li>
+            
             <li>Tim Guinee</li>
             <li>Kristen Bush</li>
             <li>Greg McFadden</li>
             <li>Barbara Haas</li>
             <li>William Ryall</li>
-            <li>Dianne Wiest</li>
+ 
             <li>Joe Lisi</li>
             <li>Alice Drummond</li>
             <li>Michael Higgins</li>
@@ -168,12 +291,12 @@
             <li>Sal Rinella</li>
             <li>Tomasz Smolarski</li>
             <li>Misha Zubarev</li>
-        </ul>
-    </div>
-    <div class="container">
-        --> @ bottom right =
-        <p>designed by edwina</p>
-    </div>
+            </ul>
+        </div>
+        <div class="container">
+            --> @ bottom right =
+            <p>designed by edwina</p>
+        </div>
 </body>
 
 </html>
