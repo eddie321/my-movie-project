@@ -10,11 +10,45 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/mymovie.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
 
 <body>
     <div class="container">
         <h1>My Movie Project</h1>
+        <div class="navbar navbar-expand{-sm|-md|-lg|-xl}">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Film Center</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Actors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Directors</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+        <img src="img/sny_hero.jpg" alt="Synecdoche, New York cover image">
+
         <ul>
             <li>Synecdoche, New York</li>
             <li>Year: 2008</li>
@@ -59,7 +93,7 @@
                 <a href="http://www.imdb.com/name/nm0442109/?ref_=nv_sr_2" class="btn btn-primary">IMDB</a>
             </div>
         </div>
-        
+
         <h4>Cast:</h4>
         <ul>
             <li>Philip Seymour Hoffman</li>
