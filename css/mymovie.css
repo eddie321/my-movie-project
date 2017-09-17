@@ -25,3 +25,13 @@ a {
 
 a:hover {
   color: #ad974f; }
+
+.leading_cast {
+  margin-top: 2rem;
+  margin-bottom: 1rem; }
+
+.plot {
+  margin-bottom: 1rem; }
+
+.leading_cast {
+  margin-bottom: 2rem; }
