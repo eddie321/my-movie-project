@@ -36,8 +36,9 @@ a:hover {
   margin-top: 2rem;
   margin-bottom: 1rem; }
 
-.plot {
-  margin-bottom: 1rem; }
+h4.plot {
+  margin-bottom: 1rem;
+  padding-top: 2rem; }
 
 .cast {
   margin-bottom: 2rem; }
