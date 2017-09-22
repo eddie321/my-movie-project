@@ -14,7 +14,7 @@
 </head>
 
 <body>
-<?php include 'nav.php'; ?>
+<?php include_once 'nav.php'; ?>
     
     <div class="container">
         <h1 class="movie_title">Synecdoche, New York</h1>
@@ -30,9 +30,11 @@
                 several women in his life, each of them highlighting an aspect of Cotard's own psyche.</p>
         </div>
 <div class="container">
-        <iframe width="420" height="315"
+
+        <!-- <iframe width="420" height="315"
         src="https://www.youtube.com/watch?v=XIizh6nYnTU">
-        </iframe>
+        </iframe> -->
+        <iframe width="480" height="360" src="https://youtu.be/XIizh6nYnTU" frameborder="0" allowfullscreen></iframe> 
 
 </div>
         <div class="container director">
@@ -45,14 +47,7 @@
                 </div>
             </div>
         </div>
-
-
-
-        <div class="container">
-            <div class="d-flex justify-content-end">
-                <p>designed by edwina</p>
-            </div>
-        </div>
+    <?php include_once 'footer.php'; ?>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav <nav class="navbar justify-content-center navbar-expand-lg navbar-light bg-light">
                 <img src="img/favicon.png" width="20" height="20" class="nav_favicon d-inline-block align-top">
                 <a class="navbar-brand" href="#">Film Center</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -7,7 +7,7 @@
                         </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="nav mr-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="index.php">Home</a>
                         </li>

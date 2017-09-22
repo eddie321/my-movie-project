@@ -13,7 +13,7 @@
 </head>
 <?php include 'nav.php'; ?>
 
-
+<?php include_once 'footer.php'; ?>
 <body>
     
 </body>
