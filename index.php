@@ -42,7 +42,7 @@
                 <a href="https://www.slantmagazine.com/film/review/synecdoche-new-york">Read Film Analysis</a>
     </div>
 
-<div class="container">
+<div class="container trailer">
     <div class="row">
         <div class="col-12 col-lg-8">
             <iframe width="480" height="360" src="https://www.youtube.com/embed/XIizh6nYnTU" frameborder="0" allowfullscreen></iframe>
