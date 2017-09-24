@@ -4,8 +4,16 @@ $color_2: #8e793e;
 $color_3: #231f20;
 $color_4: #eaeaea;
 
+@font-face {
+    font-family: "longmire_logo_regular"; 
+    src: url("../font/longmire.ttf") format("truetype");
+    src: url("..font/longmire.woff") format("woff");
+}
 
-html {
+$title_font: longmire_logo_regular;
+
+
+body {
     background-color: $color_4;
 }
 
@@ -13,19 +21,14 @@ html {
     margin-right: 0.5rem;
 }
 
+.head_img {
+    background-color: black;
+}
 
-
-.hero {
+div.head_img img {
     max-width: 100%;
-}
-
-h1 {
-    margin: 0.5 * $basic_margin;
-}
-
-.movie_title {
-    color: $color_3;
-}
+    max-height: auto;
+    }
 
 .btn {
     color: $color_2;
@@ -49,6 +52,7 @@ color: $color_1;
 
 .director {
     margin-top: 3rem;
+    max-width: 300px;
 }
 
 .leading_cast {
@@ -62,4 +66,46 @@ color: $color_1;
 
 .cast {
     margin-bottom: 2rem;
+}
+
+h1, h2, h3, h4 {
+    font-family: title_font;
+}
+
+div.gallery {
+    margin-top: 1rem;
+}
+
+div.gallery img {
+    border-left: 4px solid $color_2;
+    border-right: 4px solid $color_2;
+}
+
+a.meta_score {
+    font-size: 0.6em;
+}
+
+div.reviews p, meter {
+    display: inline;
+    margin-right: 1rem;
+}
+
+.plot {
+    margin-top: 2rem;
+}
+
+p {
+    line-height: 1.8rem;
+}
+
+.trailer {
+    margin-top: 3rem;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.dob {
+    font-size: 0.6em;
 }

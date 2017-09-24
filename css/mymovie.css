@@ -1,17 +1,20 @@
-html {
+@font-face {
+  font-family: "longmire_logo_regular";
+  src: url("../font/longmire.ttf") format("truetype");
+  src: url("..font/longmire.woff") format("woff"); }
+
+body {
   background-color: #eaeaea; }
 
 .nav_favicon {
   margin-right: 0.5rem; }
 
-.hero {
-  max-width: 100%; }
+.head_img {
+  background-color: black; }
 
-h1 {
-  margin: 0.5em; }
-
-.movie_title {
-  color: #231f20; }
+div.head_img img {
+  max-width: 100%;
+  max-height: auto; }
 
 .btn {
   color: #8e793e;
@@ -30,15 +33,47 @@ a:hover {
   color: #ad974f; }
 
 .director {
-  margin-top: 3rem; }
+  margin-top: 3rem;
+  max-width: 300px; }
 
 .leading_cast {
   margin-top: 2rem;
   margin-bottom: 1rem; }
 
-h4.plot {
-  margin-bottom: 1rem;
-  padding-top: 2rem; }
+.plot {
+  margin-bottom: 1rem; }
 
 .cast {
   margin-bottom: 2rem; }
+
+h1, h2, h3, h4 {
+  font-family: title_font; }
+
+div.gallery {
+  margin-top: 1rem; }
+
+div.gallery img {
+  border-left: 4px solid #8e793e;
+  border-right: 4px solid #8e793e; }
+
+a.meta_score {
+  font-size: 0.6em; }
+
+div.reviews p, meter {
+  display: inline;
+  margin-right: 1rem; }
+
+.plot {
+  margin-top: 2rem; }
+
+p {
+  line-height: 1.8rem; }
+
+.trailer {
+  margin-top: 3rem; }
+
+.card {
+  margin-bottom: 1rem; }
+
+.dob {
+  font-size: 0.6em; }
