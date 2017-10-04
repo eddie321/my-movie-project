@@ -4,17 +4,15 @@ $color_2: #8e793e;
 $color_3: #231f20;
 $color_4: #eaeaea;
 
-@font-face {
-    font-family: "longmire_logo_regular"; 
-    src: url("../font/longmire.ttf") format("truetype");
-    src: url("..font/longmire.woff") format("woff");
+.hero {
+    max-width: 100%;
+    height: auto;
 }
 
-$title_font: longmire_logo_regular;
 
-
-body {
-    background-color: $color_4;
+html body {
+    // background-color: $color_4;
+    background: linear-gradient(#eaeaea, #ad974f, #8e793e)
 }
 
 .nav_favicon {
@@ -23,19 +21,23 @@ body {
 
 .head_img {
     background-color: black;
+    width: 100%;
+    height: auto;
 }
 
 div.head_img img {
     max-width: 100%;
     max-height: auto;
-    }
+}
+
 
 .btn {
     color: $color_2;
     background-color: $color_3
 }
 
-a.nav-link, a.navbar-brand {
+a.nav-link,
+a.navbar-brand {
     color: $color_2;
 }
 
@@ -43,11 +45,12 @@ a.nav-link, a.navbar-brand {
     margin: 1rem;
 }
 
-a { 
-    color: $color_2;
+a {
+    color: $color_3;
 }
+
 a:hover {
-color: $color_1;
+    color: $color_1;
 }
 
 .director {
@@ -68,10 +71,6 @@ color: $color_1;
     margin-bottom: 2rem;
 }
 
-h1, h2, h3, h4 {
-    font-family: title_font;
-}
-
 div.gallery {
     margin-top: 1rem;
 }
@@ -85,7 +84,8 @@ a.meta_score {
     font-size: 0.6em;
 }
 
-div.reviews p, meter {
+div.reviews p,
+meter {
     display: inline;
     margin-right: 1rem;
 }
@@ -109,3 +109,19 @@ p {
 .dob {
     font-size: 0.6em;
 }
+
+.reviews,
+.plot {
+    background-color: rgba(142, 121, 62, 0.4);
+}
+
+.review_title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div#section1 {
+    height: 200px;
+    overflow-y: scroll;
+}
+

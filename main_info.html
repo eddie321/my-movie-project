@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,76 +8,184 @@
     <title>Synecdoche, New York - Main Information</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
-    crossorigin="anonymous">
-<link rel="stylesheet" href="css/mymovie.css">
-<link rel="icon" type="image/png" href="img/favicon.png">
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/mymovie.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bellefair' rel='stylesheet'>
+
+    <style>
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Barrio';
+            font-size: 24px;
+        }
+
+        p,
+        li,
+        h5 {
+            font-family: 'Bellefair';
+            font-size: 19px;
+        }
+
+        body {
+            background: linear-gradient(#eaeaea, #ad974f, #8e793e)
+        }
+
+        @media only screen and (max-width: 994px) {
+            img.star#star 
+                {visibility: hidden;}
+            }
+    </style>
 </head>
 
 
 <body>
-
+    <div class="container" id="navv">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <img src="img/favicon.png" width="20" height="20" class="nav_favicon d-inline-block align-top">
-                <a class="navbar-brand" href="#">Film Center</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
+            <img src="img/favicon.png" width="20" height="20" class="nav_favicon d-inline-block align-top">
+            <a class="navbar-brand" href="index.html">Film Center</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="main_info.html">Further Information</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="cast.html">Cast and Crew</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="gallery.html">Gallery</a>
-                        </li>
-                        
-                    </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                </div>
-            </nav>
-        
-    <div class="row">
-        <div class="col d-flex justify-content-center">
-            <div class="card info" style="width: 20rem;">
-                <h2 class="d-flex justify-content-center">The Film...</h2>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Year: 2008</li>
-                    <li class="list-group-item">Type: Feature</li>
-                    <li class="list-group-item">Status: Finished</li>
-                    <li class="list-group-item">Length: 124 min</li>
-                    <li class="list-group-item">Metascore: 67</li>
-                    <li class="list-group-item">Genre: Comedy, Drama</li>
-                    <li class="list-group-item">IMDB: <a href="http://www.imdb.com/title/tt0383028/">Synecdoche, New York</a></li>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="main_info.html">Further Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cast.html">Cast and Crew</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
                 </ul>
             </div>
-        </div>
-        <div class="col d-flex justify-content-center">
-            <div class="card info" style="width: 20rem;">
-                <h2 class="d-flex justify-content-center">Releases:</h2>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">USA - Oct 19 2008</li>
-                    <li class="list-group-item">USA - Oct 24 2008</li>
-                    <li class="list-group-item">USA - Nov 21 2008</li>
-                    <li class="list-group-item">USA - Mar 10 2009</li>
-                    <li class="list-group-item">Czechia - Mar 27 2009</li>
-                    <li class="list-group-item">Czechia - Apr 23 2009</li>
-                    <li class="list-group-item">UK - Oct 28 2008</li>
-                    <li class="list-group-item">UK - Feb 20 2009</li>
-                    <li class="list-group-item">UK - May 15 2009</li>
-                </ul>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col d-flex justify-content-left">
+                <div class="card info" style="max-width: 20rem;">
+                    <br><br>
+                    <h2 class="d-flex justify-content-center">The Film...</h2><br>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Year: 2008</li>
+                        <li class="list-group-item">Type: Feature</li>
+                        <li class="list-group-item">Status: Finished</li>
+                        <li class="list-group-item">Length: 124 min</li>
+                        <li class="list-group-item">Metascore: 67</li>
+                        <li class="list-group-item">Genre: Comedy, Drama</li>
+                        <li class="list-group-item">IMDB: <a href="http://www.imdb.com/title/tt0383028/">Synecdoche, New York</a></li>
+                    </ul>
+                    <br><br>
+                    <h2 class="d-flex justify-content-center">Releases:</h2><br>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">USA - Oct 19 2008</li>
+                        <li class="list-group-item">USA - Oct 24 2008</li>
+                        <li class="list-group-item">USA - Nov 21 2008</li>
+                        <li class="list-group-item">USA - Mar 10 2009</li>
+                        <li class="list-group-item">Czechia - Mar 27 2009</li>
+                        <li class="list-group-item">Czechia - Apr 23 2009</li>
+                        <li class="list-group-item">UK - Oct 28 2008</li>
+                        <li class="list-group-item">UK - Feb 20 2009</li>
+                        <li class="list-group-item">UK - May 15 2009</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-7 justify-content-center">
+                <div id="section0">
+                    <br><br>
+                    <h2 class="justify-content-center">User Reviews</h2><br>
+                    <div id="section1">
+                        <h3 class="review_title" style="font-size: 20px;">Kaufman's Most Ambitious Film</h3>
+                        <h5>10/10
+                            <meter value="1.00" style="color: #8e793e;">10/10</meter>
+                        </h5>
+                        <p><b>Author: </b>SeraphZero <em>from United States</em></p>
+                        <p class="date" style="font-size: 14px;">18 October 2008</p>
+                        <img class="star" id="star"src="img/gold_star.png" alt="10 star rating" style="position: absolute; top: 30px; right: 30px;">
+                        <p style="height: 250px; overflow-y: scroll; border: 2px solid #8e793e;">I got to see a screening of this in Boston, and let me admit to the fact that I consider this film
+                            a masterpiece. It is a rare entry into the market: an ambitious film, a gamble that, sadly, makes
+                            me question how much success it could garner in the mainstream box-office. Charlie Kaufman, however,
+                            is not a screenwriter/director who inherently aims his sights on the box-office or the mainstream
+                            (anybody who questions this has to question Being John Malkovich). Instead, his greatest strength
+                            is a boundless creativity and insight into the qualities of humanity, and Synecdoche, New York
+                            is no exception. Rather, it is the apex of Kaufman at his most insightful, his most ambitious,
+                            and (as his directorial debut) his most hauntingly beautiful. The plot itself is a contradiction
+                            of simplicity and complexity: to say that it is about Philip Seymour Hoffman trying to put on
+                            a larger than life play is an accurate statement, yet it completely fails to capture what Synecdoche,
+                            New York tries to convey. It is not a conventional film, but instead it is ambitious: a mixture
+                            of conventional narrative and surrealist cinema, one where the beauty of the film does not solely
+                            lie upon the plot, but the way every minute quality of the film ties together to form the tapestry.
+                            The actors all do their parts brilliantly. I am hard-pressed to find any performance that was
+                            weak or, for that matter, standard of the Hollywood formula. Hoffman is brilliant in a role that
+                            utilizes his physical and acting gifts, and he takes the character through the spectrum of its
+                            possibilities. All the other actors also performed brilliantly, although what struck me as wonderful
+                            about the acting choices are that the majority of the actors present are not "glamorized" for
+                            the screen. Rather, the blemishes, the age, and the imperfections that make them ordinary are
+                            ever present in the film, making Synecdoche, New York seem beautiful in a strange, "dirty" way.
+                            Much like a city, its majesty lies not in grungy street corners or clogged rain gutters, but
+                            in the whole image that is comprised of such small, necessary imperfections. And that, ultimately,
+                            is why Synecdoche, New York is such an ambitious, beautiful film. It is not a perfectly crafted
+                            standard screenplay, nor a perfectly executed piece of cinema. At least, Kaufman's work is not
+                            perfect under the current criteria of modern cinema. Synecdoche, New York is a gamble; a mixture
+                            of images and music and dialogue and acting that follows Kaufman's heart and his meditations
+                            on several ideas: namely, those on life and death and the connections all around us. It is dark
+                            yet funny, evocative and haunting. It is perfect in being a work of art that tempts us to find
+                            explanation, yet ultimately needs none compared to the feelings they evoke in us. Viewers who
+                            are looking to see the difference between "art" and "entertainment" need only see Synecdoche.</p>
+                    </div>
+                    <div id="section2">
+                        <br>
+                        <h3 class="review_title" style="font-size: 20px;">Brilliant and bizarre!</h3>
+                        <h5>9/10
+                            <meter value="0.90">9/10</meter>
+                        </h5>
+                        <p><b>Author: </b>toologize</p>
+                        <p class="date" style="font-size: 14px;">11 October 2008</p>
+                        <p style="height: 250px; overflow-y: scroll; border: 2px solid #8e793e;">What a trip. You can't expect a conventional picture from Charlie Kaufman, but this was super weird!
+                            So weird that half the people left the theatre before the end, either confused or offended by
+                            what they saw. Poor Charlie witnessed the whole scene and I suspect it really got to him. The
+                            film's very much Spike Jonze in style, but grander and more ambitious than Malkovich and Adaptation.
+                            The first hour is hilarious, next half an hour is still good and you're struggling not to lose
+                            threads, the last half an hour gets really messy and tends to drag a bit. It might be due to
+                            Charlie's inexperience as a director, or it might be intentional and a means to express one of
+                            the points of the film (futility and dragging of time), or the topics simply grew too difficult
+                            to deal with, but it seems to me that the last part could have been made a bit more compact for
+                            a stronger impression. Seven to ten minutes less would have helped, if that was possible. Perhaps
+                            Jonze would have done a better job in terms of pacing and craftsmanship, but the content is still
+                            really strong. The film had been five years in the making and you can feel the issues that Kaufman
+                            wanted to address brimming over. Illness, death, transience, love, relationships, passion, devotion,
+                            art, theatre, identity, hope, so many topics dealt with in a painfully sincere way. You both
+                            laugh and get emotionally affected all the time along with being confused by the twists of the
+                            plot and the grotesqueness of the imagery. You get many 'this is so true' moments that you completely
+                            identify with and then you suddenly get struck by a completely surreal scene. The film certainly
+                            reinforced my impression of Kaufman as a bastard son of Woody Allen and Tom Stoppard. The cast
+                            is wonderful. Philip Seymour Hoffman has to be singled out for his magnificent performance. I
+                            have never been much of a fan of his and I was somewhat bothered by the idea of him as a lead
+                            in the next Kaufman movie. I didn't think he had a presence for that, but did he prove me wrong!
+                            Appearing in virtually every scene, the man has carried this film on his shoulders. He has created
+                            a completely lovable and ludicrous character and conveyed Kaufman's ideas splendidly. Catherine
+                            Keener is as fun and adorable as ever! As a fan, I was really overwhelmed by this experience.
+                            I saw it two nights in a row, and spent hours discussing it with friends. The film is a bit difficult
+                            to comprehend instantaneously and Kaufman himself insists it requires a second watching. It is
+                            an amazing picture, rarely thought-provoking, and I can't wait to see it for the third time.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
 </body>
+
 </html>

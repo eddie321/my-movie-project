@@ -1,16 +1,17 @@
-@font-face {
-  font-family: "longmire_logo_regular";
-  src: url("../font/longmire.ttf") format("truetype");
-  src: url("..font/longmire.woff") format("woff"); }
+.hero {
+  max-width: 100%;
+  height: auto; }
 
-body {
-  background-color: #eaeaea; }
+html body {
+  background: linear-gradient(#eaeaea, #ad974f, #8e793e); }
 
 .nav_favicon {
   margin-right: 0.5rem; }
 
 .head_img {
-  background-color: black; }
+  background-color: black;
+  width: 100%;
+  height: auto; }
 
 div.head_img img {
   max-width: 100%;
@@ -20,14 +21,15 @@ div.head_img img {
   color: #8e793e;
   background-color: #231f20; }
 
-a.nav-link, a.navbar-brand {
+a.nav-link,
+a.navbar-brand {
   color: #8e793e; }
 
 .info {
   margin: 1rem; }
 
 a {
-  color: #8e793e; }
+  color: #231f20; }
 
 a:hover {
   color: #ad974f; }
@@ -46,9 +48,6 @@ a:hover {
 .cast {
   margin-bottom: 2rem; }
 
-h1, h2, h3, h4 {
-  font-family: title_font; }
-
 div.gallery {
   margin-top: 1rem; }
 
@@ -59,7 +58,8 @@ div.gallery img {
 a.meta_score {
   font-size: 0.6em; }
 
-div.reviews p, meter {
+div.reviews p,
+meter {
   display: inline;
   margin-right: 1rem; }
 
@@ -77,3 +77,15 @@ p {
 
 .dob {
   font-size: 0.6em; }
+
+.reviews,
+.plot {
+  background-color: rgba(142, 121, 62, 0.4); }
+
+.review_title {
+  font-size: 20px;
+  font-weight: bold; }
+
+div#section1 {
+  height: 200px;
+  overflow-y: scroll; }
